@@ -23,3 +23,42 @@
   color: white;
   text-decoration: none;
 }
+
+#nav_menu {
+  position: absolute;
+  width: 880px;
+  height: 50px;
+  background-color: green;
+  top: 50%;
+  margin-top: -25px;
+  left: 50%;
+  margin-left: -400px;
+  text-align: center;
+}
+
+#nav_menu ul li {
+  display: inline;
+}
+
+#nav_menu ul li a:link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid white;
+}
+
+#nav_menu ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#nav_menu ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+#nav_menu ul li a:active {
+  color: darkgray;
+    border-bottom: 2px solid darkgray;
+}
