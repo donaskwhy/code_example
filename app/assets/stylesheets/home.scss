@@ -62,3 +62,37 @@
   color: darkgray;
     border-bottom: 2px solid darkgray;
 }
+
+
+#main1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('w1.jpg');
+  background-size: cover;
+}
+
+#main1_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#main2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('w2.jpg');
+  background-size: cover;
+  top: 100%;
+  background-attachment: fixed;
+}
+
+#main3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000001;
+  top: 200%;
+}
